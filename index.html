@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Task Chat</title>
+    <link rel="stylesheet" type="text/css" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>Task Chat</h1>
+    </header>
+    <div class="container">
+        <div class="task-assignment">
+            <h2>Task Assignment</h2>
+            <ul id="task-list"></ul>
+            <input type="text" id="task-input" placeholder="Assign a task">
+            <input type="text" id="assignee-input" placeholder="Assignee username">
+            <button id="assign-task">Assign Task</button>
+        </div>
+        <div class="chat">
+            <h2>Chat</h2>
+            <div id="chat-messages"></div>
+            <input type="text" id="chat-input" placeholder="Type a message">
+            <button id="send-message">Send</button>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
